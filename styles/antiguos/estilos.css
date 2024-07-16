@@ -1,0 +1,398 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body {
+ color: black;
+ font-family: "Oswald", sans-serif;
+}
+main {
+ margin: 0px;
+}
+a {
+ font-size: 30px;
+ list-style: none;
+ text-decoration: none;
+}
+ul {
+ list-style: none;
+ text-decoration: none;
+}
+li {
+ list-style: none;
+ text-decoration: none;
+}
+
+/* INDEX */
+/* HEADER */
+.main-header {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ background-color: #252525;
+ justify-content: space-evenly;
+}
+
+/* LOGO */
+.img-logo {
+ width: auto;
+ height: 90px;
+}
+.img-logo:hover {
+ opacity: 0.7;
+}
+
+/* NAVEGACION */
+.nav-main {
+ width: auto;
+ height: 125px;
+ display: flex;
+ align-items: center;
+}
+.nav-menu {
+ gap: 20px;
+ width: 100%;
+ margin: 0px;
+ display: flex;
+ list-style: none;
+ justify-content: space-between;
+}
+
+/* NAV-BOTONES */
+.btn {
+ width: auto;
+ color: black;
+ font-size: 28px;
+ font-weight: bold;
+ padding: 5px 15px;
+ border-radius: 5px;
+ background-color: pink;
+ border: 2px solid black;
+ font-family: "Oswald", sans-serif;
+}
+.btn:hover {
+ opacity: 0.7;
+ color: white;
+ border: 2px solid black;
+ background-color: rgb(141, 124, 252);
+}
+
+/* MENÚ HAMBURGUESA */
+.menu-hamburguesa {
+ display: none;
+}
+
+/* PRIMERA SECTION */
+.background-color-index {
+ background-color: white;
+}
+.main-section {
+ margin: 0px 10%;
+ background-color: white;
+}
+.article-grid-index {
+ display: grid;
+ justify-content: space-between;
+ grid-template-columns: 1fr 1fr;
+}
+.contenido-texto {
+ padding: 50px 20px;
+}
+.primer-titulo {
+ margin: 0px;
+ padding: 20px;
+ font-size: 40px;
+ font-weight: bold;
+ text-align: center;
+}
+.textos {
+ padding: 20px;
+ font-size: 25px;
+ font-weight: bold;
+}
+.figure-mediaquery {
+ display: flex;
+ margin: 0px auto;
+ align-items: center;
+}
+.img-nosotros {
+ width: auto;
+ margin: auto;
+ height: 650px;
+ display: block;
+ align-items: center;
+}
+
+/* SECCIONES */
+/* SECTION 1 */
+.background-color-section {
+ background-color: rgb(141, 124, 252);
+}
+.article-flex-nosotros {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.contenido-texto-section {
+ width: 100%;
+ text-align: center;
+ margin: 25px auto 50px;
+}
+.h2-section {
+ margin: 0px;
+ padding: 20px;
+ font-size: 30px;
+ font-weight: bold;
+ text-align: center;
+}
+.textos-section {
+ margin: 0px;
+ padding: 20px;
+ font-size: 25px;
+ font-weight: bold;
+}
+.ul-section,
+.li-section {
+ margin: 0px;
+ padding: 20px;
+ font-size: 25px;
+ font-weight: bold;
+}
+.li-section {
+ padding: 20px 0px;
+}
+
+/* SECCIÓN 2 */
+.article-grid-trabajos-contacto {
+ width: 100%;
+ display: grid;
+ align-items: center;
+ grid-template-columns: 1fr;
+}
+.section-iframe, .section-iframe-2 {
+ display: flex;
+ justify-content: center;
+}
+.section-iframe-2 {
+ padding-bottom: 100px;
+}
+.iframes {
+ height: 720px;
+ width: 1280px;
+}
+
+/* SECCIÓN 3 */
+.segundo-titulo {
+ color: black;
+ font-size: 50px;
+ font-weight: bold;
+ padding-top: 50px;
+ text-align: center;
+}
+.ul-servicios {
+ gap: 1em;
+ margin: 0px;
+ display: grid;
+ text-align: center;
+ background-color: white;
+ padding: 25px 0px 50px 0px;
+ justify-content: space-between;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+.li-servicios {
+ margin: auto;
+ width: 400px;
+ padding: 50px 0px;
+}
+.img-servicios {
+ width: 400px;
+ height: 400px;
+}
+.img-servicios:hover {
+ opacity: 0.7;
+ cursor: pointer;
+}
+.ul-h2 {
+ width: auto;
+ color: black;
+ font-size: 30px;
+ font-weight: bold;
+ margin: 25px auto;
+ border-radius: 5px;
+ background-color: pink;
+ border: 2px solid black;
+}
+.ul-h2:hover {
+ color: white;
+ background-color: rgb(141, 124, 252);
+}
+.ul-p {
+ width: 400px;
+ font-size: 20px;
+ font-weight: bold;
+ margin: 10px auto;
+}
+
+/* SECCIÓN FORMULARIO */
+.formulario {
+ gap: 25px;
+ width: 40%;
+ display: grid;
+ margin: 0px auto;
+ text-align: center;
+ padding: 100px 0px 50px;
+ grid-template-columns: 1fr;
+}
+.formulario_grupo_input {
+ display: grid;
+ padding-right: 30px;
+ grid-template-columns: 80px 1fr;
+}
+.formulario_input {
+ width: 100%;
+ height: 40px;
+ outline: none;
+ color: #000;
+ font-size: 16px;
+ margin: 0px auto;
+ font-weight: bold;
+ line-height: 25px;
+ background: #fff;
+ border: 2px solid #000;
+ font-family: "Roboto", sans-serif;
+}
+.icono_input {
+ height: 25px;
+ font-size: 26px;
+ margin: auto 0px;
+ line-height: 25px;
+ font-weight: bold;
+ text-align: center;
+}
+.input_mensaje {
+ resize: none;
+ height: 104px;
+ color: #000;
+ font-size: 18px;
+ font-weight: bold;
+ background: #fff;
+ font-family: "Roboto", sans-serif;
+}
+.formulario_mensaje {
+ height: 40px;
+ padding: 0px;
+ display: none;
+ color: #fff;
+ margin: 0px auto;
+ line-height: 40px;
+ border-radius: 5px;
+ background: #bb2929;
+}
+.formulario_mensaje_obligatorio {
+ font-size: 18px;
+ font-family: "Roboto", sans-serif;
+}
+.formulario_btn {
+ width: 20%;
+ height: 40px;
+ border: none;
+ color: #fff;
+ font-size: 24px;
+ cursor: pointer;
+ font-weight: bold;
+ border-radius: 4px;
+ background: #000;
+}
+.formulario_btn:hover {
+ box-shadow: 3px 0px 30px rgb(163, 163, 163);
+}
+::placeholder {
+ font-size: 14px;
+ font-weight: bold;
+ font-family: "Roboto", sans-serif;
+}
+.titulo {
+ margin: 0px;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+/* FOOTER + SOCIAL */
+.social {
+ background-color: pink;
+}
+
+/* FOOTER */
+.nav-footer {
+ width: 100%;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* FLECHA ARRIBA */
+.flecha-arriba {
+ margin: 0px;
+ display: flex;
+ font-size: 30px;
+ list-style: none;
+ padding-left: 50px;
+ align-items: center;
+}
+
+.flecha-btn i {
+ padding: 10px;
+ color: white;
+ border-radius: 50px;
+ align-items: center;
+ vertical-align: middle;
+ background-color: black;
+}
+.flecha-btn i:hover {
+ opacity: 0.7;
+}
+
+.h-footer {
+ padding: 10px;
+ color: black;
+ font-size: 35px;
+ font-weight: bold;
+ text-align: center;
+}
+.links {
+ gap: 25px;
+ margin: 0px;
+ display: flex;
+ padding-right: 50px;
+ align-items: center;
+ justify-content: flex-end;
+}
+
+/* COPYRIGHT */
+.copyright {
+ gap: 15px;
+ margin: 0px;
+ color: grey;
+ display: flex;
+ font-size: 20px;
+ font-weight: 400;
+ padding: 20px 0px;
+ text-align: center;
+ background: black;
+ justify-content: center;
+ font-family: "Be Vietnam", sans-serif;
+}
+.copyright-texto {
+ margin: 0px;
+ cursor: default;
+}
+.diseñador-web-link {
+ margin: 0px;
+ font-size: 20px;
+ cursor: pointer;
+ color: orange;
+}
+.diseñador-web-link:hover {
+ opacity: 0.7;
+}

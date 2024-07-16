@@ -1,0 +1,113 @@
+/* SECCIÓN SERVICIOS */
+.segundo-titulo
+ color: map-get($colorBlack, black)
+ font-size: 50px
+ font-weight: bold
+ padding-top: 50px
+ text-align: center
+.ul-servicios
+ gap: 1em
+ margin: 0px
+ display: grid
+ text-align: center
+ background-color: map-get($colorWhite, white)
+ padding: 25px 0px 50px 0px
+ justify-content: space-between
+ grid-template-columns: 1fr 1fr 1fr
+ .li-servicios
+  margin: auto
+  width: 400px
+  padding: 50px 0px
+  .img-servicios
+   width: 400px
+   height: 400px
+  .img-servicios:hover
+   opacity: 0.7
+   cursor: pointer
+  .ul-h2
+   width: auto
+   color: map-get($colorBlack, black)
+   font-size: 30px
+   font-weight: bold
+   margin: 25px auto
+   border-radius: 5px
+   background-color: map-get($colorPink, pink)
+   border: 2px solid map-get($colorBlack, black)
+  .ul-h2:hover
+   color: map-get($colorWhite, white)
+   background-color: map-get($colorViolet, violet)
+  .ul-p
+   width: 400px
+   font-size: 20px
+   font-weight: bold
+   margin: 10px auto
+
+/* SLIDER DE LOGOS */
+.background-color-section
+ .segundo-titulo-logos
+  color: map-get($colorBlack, black)
+  font-size: 50px
+  font-weight: bold
+  padding-top: 50px
+  text-align: center
+.color-de-fondo-slider-logos
+ background-color: map-get($colorPink, pink)
+ .slider-logos-div
+  width: 100%
+  margin: 0
+  overflow: hidden
+  .ul-slider
+   padding: 0px
+   width: 200%
+   margin: auto
+   height: 150px
+   display: flex
+   align-items: center
+   animation: cambio $animation-duration infinite alternate ease-in-out
+   .li-slider
+    width: 100%
+    margin: auto
+    display: block
+    list-style: none
+    padding: 0 50px
+    text-align: center
+    img
+     transition: transform $transition-duration linear
+    // Logo specific styles
+     &:nth-child(1) .logo1,
+     &:nth-child(2) .logo2,
+     &:nth-child(3) .logo3,
+     &:nth-child(4) .logo4,
+     &:nth-child(5) .logo5,
+     &:nth-child(6) .logo6,
+     &:nth-child(7) .logo7,
+     &:nth-child(8) .logo8,
+     &:nth-child(9) .logo9
+    &:hover
+     transform: scale($logo-hover-scale)
+   .logo1
+    width: 20%
+   .logo2
+    width: 40%
+   .logo3
+    width: 20%
+   .logo4
+    width: 50%
+   .logo5
+    width: 40%
+    padding: 0px 0px
+
+/* KEYFRAMES */
+@keyframes cambio
+ 0%
+  margin-left: 0%
+ 20%
+  margin-left: -20%
+ 40%
+  margin-left: -40%
+ 60%
+  margin-left: -60%
+ 80%
+  margin-left: -80%
+ 100%
+  margin-left: -100%

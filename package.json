@@ -1,0 +1,24 @@
+{
+  "name": "preentrega3",
+  "version": "1.0.0",
+  "description": "Pre Entrega 3 Matias Catuogno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Reiki",
+    "Tarot",
+    "Registros",
+    "Akáshicos",
+    "Péndulo",
+    "Hebreo",
+    "Limpiezas",
+    "Energéticas",
+    "SesionesEspirituales",
+    "Sesiones",
+    "Espirituales."
+  ],
+  "author": "Matias Ezequiel Catuogno",
+  "license": "ISC"
+}

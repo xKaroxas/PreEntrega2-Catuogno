@@ -1,0 +1,72 @@
+/* SECCIÓN FORMULARIO */
+.formulario
+ gap: 25px
+ width: 40%
+ display: grid
+ margin: 0px auto
+ text-align: center
+ padding: 100px 0px 50px
+ grid-template-columns: 1fr
+ .titulo
+  margin: 0px
+  font-size: 28px
+  font-weight: bold
+ .formulario_grupo_input
+  display: grid
+  padding-right: 30px
+  grid-template-columns: 80px 1fr
+  .icono_input
+   height: 25px
+   font-size: 26px
+   margin: auto 0px
+   line-height: 25px
+   font-weight: bold
+   text-align: center
+  .formulario_input
+   width: 100%
+   height: 40px
+   outline: none
+   color: map-get($colorBlack, black)
+   font-size: 16px
+   margin: 0px auto
+   font-weight: bold
+   line-height: 25px
+   background-color: map-get($colorWhite, white)
+   border: 2px solid map-get($colorBlack, black)
+   font-family: "Roboto", sans-serif
+  ::placeholder
+   font-size: 14px
+   font-weight: bold
+   font-family: "Roboto", sans-serif
+  .input_mensaje
+   resize: none
+   height: 104px
+   color: map-get($colorBlack, black)
+   font-size: 18px
+   font-weight: bold
+   background-color: map-get($colorWhite, white)
+   font-family: "Roboto", sans-serif
+ .formulario_mensaje
+  height: 40px
+  padding: 0px
+  display: none
+  color: map-get($colorWhite, white)
+  margin: 0px auto
+  line-height: 40px
+  border-radius: 5px
+  background-color: map-get($colorRed, red)
+ .formulario_mensaje_obligatorio
+  font-size: 18px
+  font-family: "Roboto", sans-serif
+.formulario_btn
+ width: 20%
+ height: 40px
+ border: none
+ color: map-get($colorWhite, white)
+ font-size: 24px
+ cursor: pointer
+ font-weight: bold
+ border-radius: 4px
+ background-color: map-get($colorBlack, black)
+.formulario_btn:hover
+ box-shadow: 3px 0px 30px map-get($colorGrey, grey)
