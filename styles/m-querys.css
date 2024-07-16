@@ -1,0 +1,258 @@
+@media screen and (max-width: 1650px){
+ /* SECCIÓN TRABAJOS */
+ .section-iframe, .section-iframe-2{
+  display: block;
+  margin: 0px auto;
+ }
+ .iframes{
+  height: 480px;
+  width: 854px;
+ }
+ /* SECCIÓN CONTACTO */
+ .formulario{
+  width: 60%;
+ }
+ .formulario_btn{
+  width: 20%;
+ }
+}
+@media screen and (max-width: 1600px){
+ /* SECCIÓN SERVICIOS */
+ .segundo-titulo{
+  margin: 0px;
+ }
+ .ul-servicios{
+  padding: 50px 0px;
+  grid-template-columns: 1fr 1fr;
+ }
+}
+@media screen and (max-width: 1563px){
+ /* TODAS LAS SECCIONES */
+ .nav-footer{
+  padding: 15px 0px;
+ }
+ .h-footer{
+  margin: 0px;
+  font-size: 32px;
+ }
+}
+@media screen and (max-width: 1440px){
+ /* TODAS LAS SECCIONES */
+ .main-section{
+  margin: 0px 5%;
+ }
+ .h-footer{
+  font-size: 28px;
+ }
+}
+@media screen and (max-width: 1262px){
+ /* TODAS LAS SECCIONES */
+ .h-footer{
+  font-size: 24px;
+ }
+}
+@media screen and (max-width: 1092px){
+ /* TODAS LAS SECCIONES */
+ .h-footer{
+  font-size: 22px;
+ }
+}
+@media screen and (max-width: 1024px){
+ /* INDEX */
+ .article-grid-index{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ .figure-mediaquery{
+  display: none;
+ }
+ /* TODAS LAS SECCIONES */
+ .h-footer{
+  margin: 0px;
+  font-size: 22px;
+ }
+ /* SECCIÓN TRABAJOS */
+ .iframes{
+  height: 360px;
+  width: 640px;
+ }
+ /* SECCIÓN SERVICIOS */
+ .ul-servicios{
+  padding: 50px 0px;
+  grid-template-columns: 1fr;
+ }
+ /* SECCIÓN CONTACTO */
+ .formulario{
+  width: 80%;
+ }
+}
+@media screen and (max-width: 1006px){
+ /* TODAS LAS SECCIONES */
+ .nav-footer{
+  grid-template-columns: 1fr 1fr;
+ }
+ .h-footer{
+  display: none;
+ }
+}
+@media screen and (max-width: 768px){
+ /* TODAS LAS SECCIONES */
+ .main-header{
+  display: none;
+ }
+ .menu-hamburguesa{
+  display: block;
+ }
+ .hr{
+  display: none;
+ }
+ .a-mediaquery{
+  display: none;
+ }
+ .main-section{
+  margin: 0px;
+  background-color: white;
+ }
+ .article-grid-index{
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
+ }
+ /* FOOTER */
+ .flecha-arriba{
+  display: none;
+ }
+ .nav-footer{
+  width: 100%;
+  display: flex;
+  padding: 15px 0px;
+  align-items: center;
+  justify-content: center;
+ }
+ .links{
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+ }
+ .h-footer{
+  display: none;
+ }
+ /* SECCIÓN NOSOTROS */
+ .h2-section{
+  padding: 20px 0px;
+ }
+ .ul-section, .li-section{
+  padding: 20px 0px;
+ }
+ .contenido-texto{
+  padding: 50px 0px;
+ }
+ .primer-titulo{
+  padding: 20px 0px;
+ }
+ /* SECCIÓN TRABAJOS */
+ .iframes{
+  height: 240px;
+  width: 426px;
+ }
+}
+@media screen and (max-width: 591px){
+ /* COPYRIGHT */
+ .copyright{
+  display: grid;
+  font-size: 22px;
+  justify-content: 1fr;
+ }
+ .diseñador-web-link{
+  font-size: 22px;
+ }
+ /* SECCIÓN CONTACTO */
+ .formulario_btn{
+  width: 30%;
+ }
+}
+@media screen and (max-width: 500px){
+ /* COPYRIGHT */
+ .copyright{
+  padding: 20px 0px;
+ }
+ .copyright-texto{
+  margin: 0px;
+  font-size: 20px;
+ }
+ .diseñador-web-link{
+  font-size: 20px;
+ }
+ /* SECCIÓN CONTACTO */
+ .formulario_btn{
+  width: 35%;
+ }
+}
+@media screen and (max-width: 475px){
+ /* TODAS LAS SECCIONES */
+ .main-section{
+  margin: 0px;
+ }
+ .primer-titulo{
+  font-size: 30px;
+ }
+ .h2-section{
+  font-size: 20px;
+ }
+ .segundo-titulo{
+  font-size: 30px;
+ }
+ /* SECCIÓN NOSOTROS */
+ .textos-section, .li-section{
+  font-size: 20px;
+ }
+ /* SECCIÓN SERVICIOS */
+ .ul-servicios{
+  padding: 0px 0px 50px 0px;
+ }
+ .li-servicios, .ul-p{
+  width: 320px;
+ }
+ .img-servicios{
+  width: 320px;
+  height: 320px;
+ }
+ /* SECCIÓN TRABAJOS */
+ .iframes{
+  height: 240px;
+  width: 426px;
+ }
+}
+@media screen and (max-width: 425px){
+ /* TODAS LAS SECCIONES */
+ .main-section{
+  margin: 0px;
+ }
+ .contenido-texto{
+  padding: 25px 0px;
+ }
+ /* SECCIÓN TRABAJOS */
+ .iframes{
+  width: 320px;
+ }
+}
+@media screen and (max-width: 320px){
+ /* SECCIÓN SERVICIOS */
+ .segundo-titulo{
+  font-size: 35px;
+ }
+ .li-servicios, .ul-p{
+  width: 300px;
+ }
+ .img-servicios{
+  height: 300px;
+  width: 300px;
+ }
+ /* SECCIÓN CONTACTO */
+ .formulario{
+  width: 100%;
+ }
+ .titulo{
+  font-size: 24px;
+ }
+}
