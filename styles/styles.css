@@ -55,6 +55,7 @@ header .nav-main .nav-menu {
   gap: 20px;
   width: 100%;
   margin: 0px;
+  padding: 0px;
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -92,8 +93,7 @@ header .nav-main .nav-menu .btn:hover {
 }
 
 header .collapse {
-  width: 125px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 header .collapse .bg-dark .btn {
   width: auto;
@@ -111,7 +111,7 @@ header .collapse .bg-dark .btn {
 header .collapse .bg-dark .btn:hover {
   opacity: 0.7;
   color: #ffffff;
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
   background-color: #8d7cfc;
 }
 
@@ -168,7 +168,7 @@ header .collapse .bg-dark .btn:hover {
   justify-content: space-between;
 }
 .background-color-section .article-flex-nosotros .contenido-texto-section {
-  width: 100%;
+  width: 70%;
   text-align: center;
   margin: 25px auto 50px;
 }
@@ -490,6 +490,14 @@ footer .nav-footer .links {
   align-items: center;
   justify-content: flex-end;
 }
+footer .nav-footer .links li {
+  width: 50px;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
 footer .copyright {
   gap: 15px;
   margin: 0px;
@@ -711,6 +719,10 @@ footer .copyright .diseñador-web-link:hover {
   }
   footer .copyright .diseñador-web-link {
     font-size: 22px;
+  }
+  /* SECCIÓN NOSOTROS*/
+  .background-color-section .article-flex-nosotros .contenido-texto-section {
+    width: 100%;
   }
   /* SECCIÓN CONTACTO */
   .formulario {

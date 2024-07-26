@@ -20,5 +20,8 @@
     "Espirituales."
   ],
   "author": "Matias Ezequiel Catuogno",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
 }
